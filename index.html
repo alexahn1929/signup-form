@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-up Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="background">
+            <img src="iu.jpg">
+            <div id="logo-text"></div>
+        </div>
+        <div id="main">
+            <div class="top-blurb">Join the IU fanclub!<br><br>You know you want to.</div>
+            <form action="">
+                <legend>Let's do this!</legend>
+                <fieldset>
+                    <div class="fieldrow">
+                        <div class="field">
+                            <label for="firstname">First Name</label>
+                            <input type="text" name="first" id="firstname">
+                        </div>
+                        <div class="field">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" name="last" id="lastname">
+                        </div>
+                    </div>
+                    <div class="fieldrow">
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="field">
+                            <label for="number">Phone Number</label>
+                            <input type="number" name="number" id="number">
+                        </div>
+                    </div>
+                    <div class="fieldrow">
+                        <div class="field">
+                            <label for="pass">Password</label>
+                            <input type="password" name="pwd" id="pass">
+                        </div>
+                        <div class="field">
+                            <label for="confirm-pass">Confirm Password</label>
+                            <input type="password" name="pwd2" id="confirm-pass">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            
+            <button type="submit">Create Account</button>
+            <div class="bottom-blurb">
+                Already have an account? <a href="/login">Log in</a>
+            </div>
+        </div>
+    </body>
+</html>
